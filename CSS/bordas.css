@@ -1,0 +1,6 @@
+.teste {
+    width: 300px;
+    height: 300px;
+    border: 3px dashed #FF0000;
+    border-radius: 10px;
+}
