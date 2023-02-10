@@ -1,0 +1,8 @@
+div + span {
+    background-color: black;
+    color: white;
+}
+span + p {
+    background-color: black;
+    color: white;
+}
