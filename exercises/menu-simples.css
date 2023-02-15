@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    
+}
+
+div{
+    background-color: blue;
+    height: 28px;
+    text-align: left;
+}
+a{
+    color: white;
+    padding: 10px;
+}
+a:hover {
+    color: blue;
+    background-color: white;
+
+}
