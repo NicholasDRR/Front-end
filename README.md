@@ -1,2 +1,2 @@
 # Front-end
-Exercícios front
+Exercícios e conceitos básicos 🤓
