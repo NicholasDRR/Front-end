@@ -1,0 +1,17 @@
+div {
+    width: 100px;
+    height: 100px;
+    background-color: #ff0000;
+    margin: 1px;
+}
+.quadrado {
+    position: absolute;
+    left: 300px;
+
+}
+#bola {
+    position: fixed;
+    border-radius: 50px;
+    right: 0;
+    bottom: 0;
+}
