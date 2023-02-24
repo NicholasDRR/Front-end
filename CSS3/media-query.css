@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+}
+.teste{
+    width: 700px;
+    height: 400px;
+    background-color: #ff0000;
+}
+
+@media only screen and (min-width:200px) and (max-width:500px) {
+    .teste{
+        width: 500px;
+        height: 400px;
+        background-color: blue
+        ;
+    }
+}

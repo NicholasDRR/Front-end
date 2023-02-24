@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+}
+.titulo {
+    background-color: darksalmon;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    padding-top: 30px;
+}
+h2{
+    padding: 30px;
+}
+.cidades {
+    width: 25%;
+    float: left;
+}
+
+@media only screen and (max-width:800px) {
+    .cidades {
+        width: 50%;
+        float: left;
+    }
+}
+
+@media only screen and (max-width:500px) {
+    .cidades {
+        width: 100%;
+    }
+}

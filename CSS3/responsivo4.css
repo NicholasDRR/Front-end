@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+}
+.menumobile{
+    display: none;
+}
+.topo {
+    width: 100%;
+    max-width: 800px;
+    height: 100px;
+    background-color: crimson;
+    margin: auto;
+    text-align: center;
+}
+.corpo{
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    margin: auto;
+}
+.lista{
+    float: left;
+    width: 25%;
+}
+img{
+    width: 100%;
+}
+.conteudo{
+    float: left;
+    width: 50%;
+}
+.banner {
+    float: left;
+    background-color: #ccc;
+    height: auto;
+    width: 25%;
+}
+.rodape {
+    clear: both;
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    background-color: #ddd;
+    height: 100px;
+}
+@media only screen and (max-width:700px) {
+    .conteudo{
+        float: left;
+        width: 75%;
+    }
+    .banner {
+        float: right;
+        height: auto;
+        width: 75%;
+        height: 100px;
+    }
+}
+@media only screen and (max-width:500px){
+    .menumobile{
+        display: block;
+        height: 60px;
+        width: 60px;
+    }
+    .menulista{
+        display: none;
+    }
+    .conteudo{
+        width: 100%;
+    }
+    .banner {
+        width: 100%;
+        height: 100px;
+    }
+}
