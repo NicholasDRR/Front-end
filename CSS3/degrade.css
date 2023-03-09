@@ -1,0 +1,9 @@
+body{
+    margin: 0;
+}
+.exemplo {
+    height: 200px;
+    width: 500px;
+    background-color: #ff0000;
+    background: linear-gradient(-75deg, white, red, blue);
+}

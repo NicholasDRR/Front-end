@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+}
+.exemplo{
+    width: 150px;
+    height: 150px;
+    background-color: green;
+    margin: auto;
+    margin-top: 100px;
+    box-shadow: 10px 10px 5px #8888;
+}
+.exemplo2{
+    width: 150px;
+    height: 150px;
+    background-color: green;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 30px blue;
+}
+.exemplo3{
+    width: 150px;
+    height: 150px;
+    font-size: 30px;
+    margin: auto;
+    margin-top: 100px;
+    color: green;
+    text-shadow: 5px 5px 3px #8888;
+}
